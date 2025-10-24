@@ -1,0 +1,117 @@
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.pyd
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.uv/
+.pytest_cache/
+.mypy_cache/
+ruff_cache/
+.cache/
+coverage/
+coverage.xml
+htmlcov/
+
+# ==========================
+# IDEs & Editors
+# ==========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.orig
+
+# ==========================
+# Environment & Config
+# ==========================
+.env
+.env.*
+!.env.example
+*.ini
+*.cfg
+*.toml
+
+# ==========================
+# Logs & Temp
+# ==========================
+logs/
+*.log
+*.out
+*.err
+tmp/
+temp/
+*.pid
+
+# ==========================
+# Build & Distribution
+# ==========================
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+*.spec
+
+# ==========================
+# Docker
+# ==========================
+# Ignore local Docker artifacts
+docker-compose.override.yml
+*.tar
+*.bak
+*.pid
+# Do not ignore docker-compose.yml (main one tracked)
+!docker-compose.yml
+
+# ==========================
+# Database / Cache
+# ==========================
+*.db
+*.sqlite3
+data/
+postgres_data/
+redis_data/
+
+# ==========================
+# Tests / Reports
+# ==========================
+.coverage
+.pytest_cache/
+.tox/
+nosetests.xml
+test-results/
+junit*.xml
+
+# ==========================
+# Frontend / Assets (if any)
+# ==========================
+node_modules/
+*.map
+
+# ==========================
+# Docs / Exports
+# ==========================
+docs/_build/
+*.pdf
+*.docx
+*.pptx
+*.ipynb_checkpoints
+notebooks/.ipynb_checkpoints/
+
+# ==========================
+# System Files
+# ==========================
+.DS_Store
+Thumbs.db
